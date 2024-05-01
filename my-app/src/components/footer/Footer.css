@@ -1,0 +1,22 @@
+
+   div a{
+    width:  40px;
+    height: 40px;
+    background-size:cover ;
+    text-decoration: none;
+    background-color: #00aa98;
+    margin-left: 5px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px !important;
+    color: white;
+
+
+   }
+   div a.fa-facebook{
+    
+    background-color: blue !important;
+   }
+   div a.fa-google{
+    background-color: rgb(242, 73, 39);
+   }
