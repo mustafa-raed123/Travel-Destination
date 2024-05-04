@@ -1,13 +1,12 @@
 
 import './App.css';
-import {Header,Tours,Footer} from './components/home/Home'
+import Home from '../src/components/home/Home'
 
 function App() {
   return (
     <>
-      <Header></Header>
-       <Tours></Tours>
-      <Footer></Footer>
+      <Home></Home>
+      
     </>
   );
 }
