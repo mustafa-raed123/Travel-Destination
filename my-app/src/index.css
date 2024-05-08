@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+  a{
+
+  color: white ;
+  font-size: 20px;
+  font-weight: bold;
+  /* background: none; */
+  border-radius: none !important;
+  padding: 10px;
+  width: 20px;
+  height: 10px;
+  background-color: red;
+  transition-duration: .4s;
+  border-radius: 5px !important;
+}
+ a:Hover{
+   color: #0D6EFD ;
+   font-size: 20px;
+   font-weight: bold;
+   background: white;
+}

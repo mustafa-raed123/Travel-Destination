@@ -1,0 +1,29 @@
+.card {
+
+    padding: 20px;
+    display: block !important;
+    transition: transform 0.3s ease-in-out;
+}
+.card .title{
+    padding: 10px;
+    font-size: 25px;
+    color: rgb(36, 35, 35);
+    transition:  0.3s;
+}
+.card .title:hover{
+    background-color: #007bff !important;
+    color: white;
+    
+
+}
+.card  .image{
+    transition: transform 0.3s ease-in-out;
+}
+.card  .image:hover{
+    transform: scale(1.1);
+}
+.image{
+    background-size: cover;
+    /* width: 400px; */
+    height: 300px;
+}
