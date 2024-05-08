@@ -1,0 +1,35 @@
+.city-details{
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    width: 40rem;
+    box-shadow: 0px 0px 6px 0px seagreen;
+    margin-bottom: 20px;
+
+}
+.city-details *{
+   
+    padding: 5px;
+    margin-top: 5px;
+
+}
+button {
+    border: none;
+    background-color: none;
+    box-shadow: none;
+    color: orangered;
+    font-size: 15px;
+    transition-duration: .4s;
+
+
+}
+button:hover {
+    border: none;
+    background-color: #0D6EFD;
+    box-shadow: none;
+    color: WHITE;
+    font-size: 15px;
+    border-radius: 5px;
+    
+
+}
