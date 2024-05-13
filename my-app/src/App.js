@@ -7,12 +7,11 @@ import ToursDatails from './components/tourdatails/ToursDatails';
 function App() {
   return (
     <>
-      {/* <Home></Home> */}
+      
       <Routes>
       <Route path='/' element = {<Home></Home>}></Route>
       
-      </Routes>
-      <Routes>
+ 
       <Route path='/city/:id' element = {<ToursDatails></ToursDatails>}></Route>
       
       </Routes>
